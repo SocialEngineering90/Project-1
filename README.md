@@ -10,7 +10,7 @@
 
 # FLAW 1: Injection
 
-Link pinpointing flaw 1: https://github.com/SocialEngineering90/Project-1/blob/main/polls/custom_script.py#L11
+**Link pinpointing flaw 1: ** https://github.com/SocialEngineering90/Project-1/blob/main/polls/custom_script.py#L11
 
 **Description of the flaw. **
 In this first flaw, I am trying to address a SQL Injection in the python code in the backend and recommend a fix using parameterized queries or prepared statements. 
