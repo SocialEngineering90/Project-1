@@ -2,8 +2,10 @@
 
 ## Introduction
 
+Web application reacheable from my VM in codespaces after running the python manage.py runserver command. On the following url https://psychic-goldfish-q777qpw94p6gf64xj-8000.app.github.dev/polls/
 
 
+![2023-12-07 12_47_31-Window.jpg](https://github.com/SocialEngineering90/Project-1/blob/393e52d9099daf494b4e523e8f8b5eccf5760471/2023-12-07%2012_47_31-Window.jpg)
 
 
 ----
