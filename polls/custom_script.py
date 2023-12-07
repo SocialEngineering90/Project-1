@@ -1,6 +1,8 @@
 # custom_script.py
 import sqlite3
 
+from outdated_library import outdated_function  # Introduced an outdated or insecure library intentionally
+
 #Fix of FLAW 1: Injection
 #def get_user(user_id):
 #    cursor.execute("SELECT * FROM users WHERE id=?", (user_id,))
