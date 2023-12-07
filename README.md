@@ -3,6 +3,13 @@
 ## Introduction
 
 
+
+
+
+----
+
+# FLAW 1: Injection
+
 Link pinpointing flaw 1: https://github.com/SocialEngineering90/Project-1/blob/main/polls/custom_script.py#L11
 
 **Description of the flaw. **
@@ -19,11 +26,6 @@ To fix this issue, it is enough to use parameterized queries or prepared stateme
 
 `def get_user(user_id):
     cursor.execute("SELECT * FROM users WHERE id=?", (user_id,))`
-
-
-----
-
-# FLAW 1: Injection
 
 # FLAW 2: Broken Access Control
 
