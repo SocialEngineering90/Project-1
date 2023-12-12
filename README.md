@@ -56,7 +56,7 @@ To fix the "Broken Access Control" flaw, I can utilize Django's built-in authent
 
 # FLAW 3: Insecure Dependencies
 
-**Link pinpointing flaw 2:** https://github.com/SocialEngineering90/Project-1/blob/main/polls/custom_script.py#L6C4-L6C4
+**Link pinpointing flaw 3:** https://github.com/SocialEngineering90/Project-1/blob/main/polls/custom_script.py#L6C4-L6C4
 
 
 **Description of the flaw.**
@@ -71,6 +71,15 @@ Another possible fix could be also to update the script inside the custom_script
 
 
 # FLAW 4: Insufficient Logging and Monitoring
+
+**Link pinpointing flaw 4:** https://github.com/SocialEngineering90/Project-1/blob/main/manage.py#L21
+
+**Description of the flaw.**
+The project lacks a logging or monitoring setup, making it difficult to detect, escalate, and respond to active breaches. This flaw corresponds to A09:2021-Security Logging and Monitoring Failures in the OWASP Top Ten.
+
+**How to fix it.** 
+Implement logging in your application, especially for critical operations. Use Django's built-in logging, or a third-party library like Loguru. For monitoring, consider using tools like Sentry, New Relic, or Datadog.
+
 
 # FLAW 5: Security Misconfiguration
 
