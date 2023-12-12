@@ -83,7 +83,7 @@ Implement logging in your application, especially for critical operations. Use D
 
 # FLAW 5: Security Misconfiguration
 
-**Link pinpointing flaw 4:** 
+**Link pinpointing flaw 5:** https://github.com/SocialEngineering90/Project-1/blob/main/mysite/settings.py#L32
 
 **Description of the flaw.**
 Security misconfiguration can occur when the application is not properly configured, leading to vulnerabilities. This flaw corresponds to A05:2021-Security Misconfiguration in the OWASP Top Ten. In the given project, the settings.py file might contain insecure configurations, such as DEBUG mode enabled, weak secret keys, or improper middleware settings.
