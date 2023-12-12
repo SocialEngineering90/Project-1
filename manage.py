@@ -2,8 +2,8 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-import logging  # Added import for logging
-
+# This is the fix to the security flaw, adding import for logging
+# import logging  
 
 def main():
     """Run administrative tasks."""
@@ -19,8 +19,8 @@ def main():
     execute_from_command_line(sys.argv)
 
     # Add a simple logging statement
-    logging.basicConfig(filename='example.log', level=logging.INFO)
-    logging.info('This is a simple log message')  # Example logging message
+    # logging.basicConfig(filename='example.log', level=logging.INFO)
+    # logging.info('This is a simple log message')  # Example logging message
 
 
 if __name__ == "__main__":
