@@ -9,6 +9,12 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
+# To solve this flaw it will be necessary to set DEBUG mode to false with this command 
+# DEBUG = False 
+#In addition to that hide the SECRET_KEY by using environment variables instead of hardcoding in the settings.py file. 
+# import os
+# SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
+# ALLOWED_HOSTS = ["https://psychic-goldfish-q777qpw94p6gf64xj-8000.app.github.dev/polls/", "psychic-goldfish-q777qpw94p6gf64xj-8000.app.github.dev/polls/"]
 
 from pathlib import Path
 
@@ -121,3 +127,4 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
