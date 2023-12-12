@@ -12,7 +12,7 @@ This is a web application I created as part of my course. You can access it at t
 
 # FLAW 1: Injection
 
-**Link pinpointing flaw 1:** https://github.com/SocialEngineering90/Project-1/blob/main/polls/custom_script.py#L11
+**Link to flaw 1:** https://github.com/SocialEngineering90/Project-1/blob/main/polls/custom_script.py#L11
 
 **Description of the flaw.**
 The first flaw I identified is a SQL Injection vulnerability in the Python code in the backend. This flaw makes the code susceptible to SQL injection as it directly incorporates user input into the SQL query.
@@ -23,7 +23,7 @@ To rectify this, I suggest using parameterized queries or prepared statements. T
 
 # FLAW 2: Broken Access Control
 
-**Link pinpointing flaw 2:** https://github.com/SocialEngineering90/Project-1/blob/main/polls/views.py#L13
+**Link to flaw 2:** https://github.com/SocialEngineering90/Project-1/blob/main/polls/views.py#L13
 
 **Description of the flaw.**
 The second flaw is potential broken access control. This could occur if the project doesn't properly manage authenticated sessions or restrict access to certain views based on user roles. This flaw aligns with A01:2021-Broken Access Control in the OWASP Top Ten.
@@ -33,7 +33,7 @@ To address this, I recommend using Django's built-in authentication and authoriz
  
 # FLAW 3: Insecure Dependencies
 
-**Link pinpointing flaw 3:** https://github.com/SocialEngineering90/Project-1/blob/main/polls/custom_script.py#L6C4-L6C4
+**Link to flaw 3:** https://github.com/SocialEngineering90/Project-1/blob/main/polls/custom_script.py#L6C4-L6C4
 
 
 **Description of the flaw.**
@@ -46,7 +46,7 @@ To mitigate this, it's important to regularly update all dependencies to their l
 
 # FLAW 4: Insufficient Logging and Monitoring
 
-**Link pinpointing flaw 4:** https://github.com/SocialEngineering90/Project-1/blob/main/manage.py#L21
+**Link to flaw 4:** https://github.com/SocialEngineering90/Project-1/blob/main/manage.py#L21
 
 **Description of the flaw.**
 The fourth flaw is the lack of a logging or monitoring setup, which makes it challenging to detect, escalate, and respond to active breaches. This flaw aligns with A09:2021-Security Logging and Monitoring Failures in the OWASP Top Ten.
@@ -57,7 +57,7 @@ To address this, I suggest implementing logging in your application, especially 
 
 # FLAW 5: Security Misconfiguration
 
-**Link pinpointing flaw 5:** https://github.com/SocialEngineering90/Project-1/blob/main/mysite/settings.py#L32
+**Link to flaw 5:** https://github.com/SocialEngineering90/Project-1/blob/main/mysite/settings.py#L32
 
 **Description of the flaw.**
 The fifth flaw is security misconfiguration, which can occur when the application is not properly configured, leading to vulnerabilities. This flaw aligns with A05:2021-Security Misconfiguration in the OWASP Top Ten.
