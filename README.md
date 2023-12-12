@@ -56,6 +56,20 @@ To fix the "Broken Access Control" flaw, I can utilize Django's built-in authent
 
 # FLAW 3: Insecure Dependencies
 
+**Link pinpointing flaw 2:** https://github.com/SocialEngineering90/Project-1/blob/main/polls/custom_script.py#L6C4-L6C4
+
+
+**Description of the flaw.**
+This project might be using insecure or outdated dependencies. This could include the database (SQLite3) or any libraries used in custom scripts. This flaw corresponds to A06:2021-Vulnerable and Outdated Components in the OWASP Top Ten.
+
+To implement this flaw in our current python script I intentionally add the following line with the respective comment. 
+
+**How to fix it.** 
+Regularly update all dependencies to their latest stable versions. Use tools like pip list --outdated to check for outdated Python packages. For the database, consider using a more robust system like PostgreSQL or MySQL for production. Always ensure that any custom scripts follow secure coding practices.
+
+Another possible fix could be also to update the script inside the custom_script.py with the updated library. 
+
+
 # FLAW 4: Insufficient Logging and Monitoring
 
 # FLAW 5: Security Misconfiguration
