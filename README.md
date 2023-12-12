@@ -83,6 +83,19 @@ Implement logging in your application, especially for critical operations. Use D
 
 # FLAW 5: Security Misconfiguration
 
+**Link pinpointing flaw 4:** 
+
+**Description of the flaw.**
+Security misconfiguration can occur when the application is not properly configured, leading to vulnerabilities. This flaw corresponds to A05:2021-Security Misconfiguration in the OWASP Top Ten. In the given project, the settings.py file might contain insecure configurations, such as DEBUG mode enabled, weak secret keys, or improper middleware settings.
+
+**How to fix it.** 
+To fix security misconfiguration, follow best practices for configuring your Django application:
+Ensure DEBUG mode is set to False in production environments.
+Use strong, unique secret keys for each environment.
+Configure middleware settings to include security-related middleware, such as 'django.middleware.security.SecurityMiddleware' and 'django.middleware.clickjacking.XContentOptionsMiddleware'.
+Regularly review and update your application's configurations to ensure they follow security best practices.
+Use Django's built-in security features, such as the ALLOWED_HOSTS setting, to restrict access to your application.
+
 
 ----
 # Credits
