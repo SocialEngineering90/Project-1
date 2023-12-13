@@ -2,8 +2,10 @@
 
 ## Introduction
 
-This is a web application I created as part of my course. You can access it at the following URL: https://psychic-goldfish-q777qpw94p6gf64xj-8000.app.github.dev/polls/ (exclusively while I am running the application on my VM on Codespaces)
+This is a web application I created as part of my course. This application is hosted on GitHub Codespaces and can be accessed via the following URL: https://psychic-goldfish-q777qpw94p6gf64xj-8000.app.github.dev/polls/ Please note that the application is only accessible while I am running it on my Virtual Machine (VM) on Codespaces.
 
+The application was built following the steps outlined in the Django tutorial (https://docs.djangoproject.com/en/4.2/intro/tutorial01/). This comprehensive guide walks you through the creation of a basic poll application, consisting of a public site that allows users to view polls and vote in them, and an admin site for adding, changing, and deleting polls.
+The image below provides a snapshot of the application interface:
 
 ![2023-12-07 12_47_31-Window.jpg](https://github.com/SocialEngineering90/Project-1/blob/393e52d9099daf494b4e523e8f8b5eccf5760471/2023-12-07%2012_47_31-Window.jpg)
 
